@@ -108,7 +108,12 @@ nav .btn a {
     color: #FFF;
 
 }
-
+ nav .btn a:hover{
+    background-color: #01ACFD;
+    box-shadow: 0 10px 20px rgba(208, 21, 233, 0.837);
+    color: #000000;
+    transition: all linear .3s;
+ }
 nav .menu-bar {
     display: none;
 }
