@@ -46,11 +46,12 @@ nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 25px;
 }
 nav ul{
     display: flex;
 }
-nav h2{
+nav .school-name{
     font-family: "Quicksand", serif;
     font-size: 32px;
     font-weight: 700;
@@ -83,4 +84,7 @@ nav .btn a{
     background-color: #FEA301;
     color: #FFF;
 
+}
+nav .menu-bar{
+    display: none;
 }

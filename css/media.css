@@ -1,0 +1,30 @@
+/* for extra small device */
+@media (max-width:575.98px) {
+    /* navbar part start */
+    nav ul{
+        display: none;
+    }
+    nav .btn{
+        display: none;
+    }
+    nav .menu-bar{
+        display: block;
+        margin-right: 16px;
+        font-size: 30px;
+    }
+    nav .school-name{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+       
+    }
+    nav h2{
+        margin-left: 16px;
+    }
+    /* navbar part end here */
+
+    
+
+    
+}
