@@ -30,7 +30,12 @@
         text-align: center;
        
     }
-  
-
+  /* curriculum part start here */
+.curriculum-wrapper{
+   grid-template-columns: repeat(1,1fr);
+}
+.arrow-wrapper{
+    display: none;
+}
     
 }

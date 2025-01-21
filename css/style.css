@@ -268,3 +268,128 @@ nav .menu-bar {
     color: #FFF;
     font-size: 24px;
 }
+/* our story part start here */
+#ourStory{
+    background: url('../assets/bg.png'), linear-gradient(to top,rgba(254, 161, 1, 0.3) 0%, rgba(255, 226, 171, 0.3) 67%,#FFFFFF 100%);
+    ;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 80px;
+
+
+
+ 
+}
+.left-story{
+    border-radius: 16px;
+    text-align: justify;
+width: 50%;
+
+}
+.left-story img{
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+}
+.left-story h5{
+    font-family: "Quicksand", serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 38px;
+
+}
+.left-story p{
+    font-family: "Quicksand", serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #666;
+
+}
+.story-content{
+    padding-top:48px;
+    padding-bottom: 38px;
+    padding-left: 38px;
+    padding-right: 34px;
+    background-color: #fff;
+    border-radius: 0 0 16px 16px;
+    width: 100%;
+    position: relative;
+}
+.right-story {
+    width: 50%;
+}
+
+.right-story img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+
+}
+.right-story-content{
+    padding-top: 38px;
+    padding-left: 38px;
+    padding-bottom: 28px;
+    padding-right: 38px;
+    background-color: #FFFF;
+    width: 100%;
+    border-radius: 0 0 16px 16px;
+}
+.right-story-content h5{
+    font-family: "Quicksand", serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+.story-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.right-story{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.right-story-content{
+    position: relative;
+}
+.story-content .date p{
+    font-family: "Raleway", serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #ffff;
+    padding: 10px 20px;
+    background-color: #3CD8E8;
+    border-radius: 48px;
+    position: absolute;
+    top: -25px;
+    left: 25px;
+
+}
+.right-item .date p{
+    font-family: "Raleway", serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #ffff;
+    padding: 10px 20px;
+    background-color: #95B226;
+    border-radius: 48px;
+    position: absolute;
+    top: -25px;
+    left: 25px;
+}
+.right-item:nth-child(2) .date p{
+background-color: #5D58F0;
+}
+.view{
+text-align: center;
+margin-top: 90px;
+margin-bottom: 70px;
+}
