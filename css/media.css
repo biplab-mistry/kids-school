@@ -59,9 +59,8 @@ nav h2 {
 
 }
  
-/* for small device */
+/* for small device/mobile */
 @media (min-width:576px) and (max-width:767.98px) {
-
     /* navbar part start */
     nav ul {
         display: none;
