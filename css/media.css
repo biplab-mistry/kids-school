@@ -1,41 +1,94 @@
 /* for extra small device */
 @media (max-width:575.98px) {
+
     /* navbar part start */
-    nav ul{
+    nav ul {
         display: none;
     }
-    nav .btn{
+
+    nav .btn {
         display: none;
     }
-    nav .menu-bar{
+
+    nav .menu-bar {
         display: block;
         margin-right: 16px;
         font-size: 30px;
     }
-    nav .school-name{
+
+    nav .school-name {
         display: none;
     }
-    nav{
+
+    nav {
         justify-content: space-between;
-       
+
     }
-    nav h2{
+
+    nav h2 {
         margin-left: 16px;
     }
+
     /* navbar part end here */
 
     /* banner part start here */
-    .banner-container{
+    .banner-container {
         flex-direction: column-reverse;
         text-align: center;
-       
+
     }
-  /* curriculum part start here */
-.curriculum-wrapper{
-   grid-template-columns: repeat(1,1fr);
+
+    /* curriculum part start here */
+    .curriculum-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .arrow-wrapper {
+        display: none;
+    }
+
+    /* our story section start here */
+    .left-story {
+        display: none;
+    }
+
+    .right-item .date p {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+
+    .right-item .date p {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    .right-story-content h5 {
+     
+        line-height: 20px;
+    }
+    .right-story-content {
+        padding: 22px;
+    }
+    .right-story {
+        width: 100vw;
+    }
+    .right-item .date p {
+
+        top: -15px;
+        left: 15px;
+    }
+    /* footer section start here */
+    .footer-container{
+        flex-direction: column;
+        padding-left: 15px;
+    }
+    .left-footer{
+        width: 100%;
+    }
+    .mid-footer h3 {
+        margin-top: 32px;
+    }
+    .right-footer h3 {
+        margin-top: 32px;;
+    }
 }
-.arrow-wrapper{
-    display: none;
-}
-    
-}
+/* extra small device part end */

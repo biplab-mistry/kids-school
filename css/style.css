@@ -447,10 +447,15 @@ footer{
 }
 .left-footer p{
     font-family: "Quicksand", serif;
-    font-size: 20x;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 25px;
     color: #fff;
     margin-top: 35px;
 
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
