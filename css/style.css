@@ -282,10 +282,6 @@ nav .menu-bar {
     background-size: cover;
     padding-top: 60px;
     padding-bottom: 80px;
-
-
-
- 
 }
 .left-story{
     border-radius: 16px;
@@ -398,6 +394,29 @@ text-align: center;
 margin-top: 90px;
 margin-bottom: 70px;
 }
+
+.marquee-container{
+    width: 100%;
+    overflow: hidden;
+}
+.marque{
+    display: inline-block;
+    width: 100%;
+    animation: scroll 10s linear infinite;
+}
+@keyframes scroll {
+    0%{
+       transform: translateX(100%); 
+    }
+    100%{
+transform: translateX(-100%);
+    }
+    
+}
+.marque:hover {
+    animation-play-state: paused;
+  }
+
 /* footer section start here */
 footer{
     background-color: #01ACFD;

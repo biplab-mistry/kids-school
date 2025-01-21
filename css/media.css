@@ -1,66 +1,73 @@
 /* for tablet / medium device */
 @media (min-width:768px) and (max-width:991.98px) {
-   /* navbar part start */
-   nav ul {
-    display: none;
+
+    /* navbar part start */
+    nav ul {
+        display: none;
+    }
+
+    nav .btn {
+        display: none;
+    }
+
+    nav .menu-bar {
+        display: block;
+        margin-right: 16px;
+        font-size: 30px;
+    }
+
+    nav .school-name {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+
+    }
+
+    nav h2 {
+        margin-left: 16px;
+    }
+
+    /* banner part start here */
+    .banner-container {
+        flex-direction: column-reverse;
+        text-align: center;
+
+    }
+
+    /* curriculum part start here */
+    .curriculum-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .arrow-wrapper {
+        display: none;
+    }
+
+    /* our story section */
+    .left-story {
+        width: 100%;
+    }
+
+    .right-story {
+        width: 100%;
+    }
+
+    .story-container {
+        flex-direction: column;
+    }
+
+    .footer-container {
+        justify-content: space-around;
+
+    }
 }
 
-nav .btn {
-    display: none;
-}
-
-nav .menu-bar {
-    display: block;
-    margin-right: 16px;
-    font-size: 30px;
-}
-
-nav .school-name {
-    display: none;
-}
-
-nav {
-    justify-content: space-between;
-
-}
-
-nav h2 {
-    margin-left: 16px;
-}
-/* banner part start here */
-.banner-container {
-    flex-direction: column-reverse;
-    text-align: center;
-
-}
-
-/* curriculum part start here */
-.curriculum-wrapper {
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-}
-
-.arrow-wrapper {
-    display: none;
-}
-/* our story section */
-.left-story {
-	width: 100%;
-}
-.right-story {
-	width: 100%;
-}
-
-.story-container {
-	flex-direction: column;
-}
-.footer-container {
-	justify-content: space-around;
-
-}
-}
 /* for small device/mobile */
 @media (min-width:576px) and (max-width:767.98px) {
+
     /* navbar part start */
     nav ul {
         display: none;
@@ -101,8 +108,14 @@ nav h2 {
     /* curriculum part start here */
     .curriculum-wrapper {
         grid-template-columns: repeat(1, 1fr);
+        place-items: center;
     }
+  
 
+    .curriculum-item {
+      
+        width: 95%;
+    }
     .arrow-wrapper {
         display: none;
     }
@@ -121,39 +134,50 @@ nav h2 {
         font-size: 10px;
         padding: 0 5px;
     }
+
     .right-story-content h5 {
-     
+
         line-height: 20px;
     }
+
     .right-story-content {
         padding: 22px;
     }
+
     .right-story {
         width: 95%;
     }
+
     .right-item .date p {
 
         top: -15px;
         left: 15px;
     }
+
     .story-container {
         justify-content: center;
     }
+
     /* footer section start here */
-    .footer-container{
+    .footer-container {
         flex-direction: column;
         padding-left: 15px;
     }
-    .left-footer{
+
+    .left-footer {
         width: 100%;
     }
+
     .mid-footer h3 {
         margin-top: 32px;
     }
+
     .right-footer h3 {
-        margin-top: 32px;;
+        margin-top: 32px;
+        ;
     }
 }
+
 /* extra small device part end */
 
 
@@ -216,6 +240,12 @@ nav h2 {
     /* curriculum part start here */
     .curriculum-wrapper {
         grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+
+    .curriculum-item {
+      
+        width: 95%;
     }
 
     .arrow-wrapper {
@@ -236,37 +266,48 @@ nav h2 {
         font-size: 10px;
         padding: 0 5px;
     }
+
     .right-story-content h5 {
-     
+
         line-height: 20px;
     }
+
     .right-story-content {
         padding: 22px;
     }
+
     .right-story {
         width: 95%;
     }
+
     .right-item .date p {
 
         top: -15px;
         left: 15px;
     }
+
     .story-container {
         justify-content: center;
     }
+
     /* footer section start here */
-    .footer-container{
+    .footer-container {
         flex-direction: column;
         padding-left: 15px;
     }
-    .left-footer{
+
+    .left-footer {
         width: 100%;
     }
+
     .mid-footer h3 {
         margin-top: 32px;
     }
+
     .right-footer h3 {
-        margin-top: 32px;;
+        margin-top: 32px;
+        ;
     }
 }
+
 /* extra small device part end */
