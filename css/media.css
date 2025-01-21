@@ -24,7 +24,13 @@
     }
     /* navbar part end here */
 
-    
+    /* banner part start here */
+    .banner-container{
+        flex-direction: column-reverse;
+        text-align: center;
+       
+    }
+  
 
     
 }
