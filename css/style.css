@@ -1,0 +1,86 @@
+/* common css start here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* wrapper container */
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.btn-primary{
+    padding: 10px 60px;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 600; 
+    border-radius: 12px;
+}
+/* navbar css start here */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav h2{
+    font-family: "Quicksand", serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #111111;
+}
+nav ul li {
+    margin-right: 32px;
+}
+
+nav ul li a{
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 700; 
+    color: #FEA301;
+}
+nav ul li:last-child a{
+    margin-right: 0;
+    color: #5D58EF;
+}
+nav ul li:nth-last-child(2) a{
+    margin-right: 0;
+    color: #05D4DF;
+}
+nav ul li:nth-last-child(3) a{
+    margin-right: 0;
+    color: #01ACFD;
+}
+nav .btn a{
+    background-color: #FEA301;
+    color: #FFF;
+
+}
